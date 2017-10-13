@@ -10,8 +10,13 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextArea;
 /**
- * An example for javadoc.
- * @author qiyangh
+ * Realization of the game Knock_the_Mole.
+ * More UI factors can bee added on.
+ * Some part of methods could be rewritten by functional programming.
+ *
+ * @author QIYANG HE
+ * qiyangh AT andrew DOT cmu DOT edu
+ *
  */
 public class Game implements ActionListener {
     private JButton start;
