@@ -1,6 +1,24 @@
 
 An simple realization of knock_a_mole game, did not include public scoreboard as well as other notification of the operations yet.
+
+# key design:
+# 20 sec time slot
+# each mole appear between [1,4] sec
+# each mole appear at least once during time slot
+# 
+
 Just play by yourself!
+pls install java to run the application
+
+# future improvement:
+# add on public scoreboard
+# use more vivid feature patterns representing hiting operation
+# consider other randomize algorithms
+
 Any hidden bug issue pls contact
 qiyangh@andrew.cmu.edu
+
+By the way
+My best record is 17
+how is that compared with yours?
 :)
