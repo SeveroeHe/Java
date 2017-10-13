@@ -14,37 +14,14 @@ import javax.swing.JTextArea;
  * @author qiyangh
  */
 public class Game implements ActionListener {
-    /**
-     * variable mapid.
-     */
     private JButton start;
-    /**
-     * variable mapid.
-     */
     private JTextArea time;
-    /**
-     * variable mapid.
-     */
     private JTextArea report;
-    /**
-     * variable mapid.
-     */
     private JButton[] hole;
-    /**
-     * variable mapid.
-     */
     private Mhole[] cthole = new Mhole[16];
-    /**
-     * variable mapid.
-     */
     private int rptscore = 0;
-    /**
-     * variable mapid.
-     */
     private long origin;
-    /**
-     * constructor.
-     */
+ 
     public Game() {
     //UI for info
         JFrame frame = new JFrame("Whack-a-mole Game");
@@ -126,33 +103,12 @@ public class Game implements ActionListener {
     * class mhole.
     */
     private class Mhole extends Thread {
-        /**
-         * variable mapid.
-         */
         private String condition;
-        /**
-         * variable mapid.
-         */
         private Color mycolor;
-        /**
-         * variable mapid.
-         */
         private JButton button;
-        /**
-         * variable mapid.
-         */
         private int sec;
-        /**
-         * variable mapid.
-         */
         private Random random = new Random();
-        /**
-         * constructor.
-         * @param a a is a String
-         * @param b b is color
-         * @param c c is JButton
-         * @param d d is int
-         */
+        
         Mhole(String a, Color b, JButton c, int d) {
             condition = a;
             mycolor = b;
@@ -203,28 +159,11 @@ public class Game implements ActionListener {
     * class timer.
     */
     private class Timer extends Thread {
-        /**
-         * variable mapid.
-         */
         private boolean going = true;
-        /**
-         * variable mapid.
-         */
         private int sec;
-        /**
-         * variable mapid.
-         */
         private JTextArea show;
-        /**
-         * variable mapid.
-         */
         private JButton control;
-        /**
-         * constructor.
-         * @param tt tt is int
-         * @param a a is JTextarea
-         * @param b b is JButton
-         */
+        
         Timer(int tt, JTextArea a, JButton b) {
             sec = tt;
             show = a;
@@ -260,16 +199,11 @@ public class Game implements ActionListener {
             }
             }
     }
-    /**
-     * @param originl originl is the second
-     * @return long lomg
-     */
+
     public int retsec(long originl) {
         return (int) ((System.currentTimeMillis() - originl) / 1000);
     }
-    /**
-     * @param args args is the command line input
-     */
+
     public static void main(String[] args) {
         new Game();
     }
