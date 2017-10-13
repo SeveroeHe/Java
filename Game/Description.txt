@@ -1,0 +1,6 @@
+
+An simple realization of knock_a_mole game, did not include public scoreboard as well as other notification of the operations yet.
+Just play by yourself!
+Any hidden bug issue pls contact
+qiyangh@andrew.cmu.edu
+:)
