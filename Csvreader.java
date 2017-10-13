@@ -4,7 +4,7 @@ import java.io.IOException;
 /**
  * @Author: Qiyang He (qiyangh AT andrew DOT cmu DOT edu).
  * This csv reader is mainly for self-use.
- * Please contact me if there exists any hidden problems.
+ * Simple realization of reading csv format file into regular output(String arrays) from line to line.
  *
  */
 public class Csvreader extends BufferedReader {
@@ -58,7 +58,6 @@ public class Csvreader extends BufferedReader {
         } else {
             clean[countcomma] = line.substring(startid, line.length());
         }
-        
         return clean;
     }
 }
