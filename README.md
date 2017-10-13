@@ -1,3 +1,3 @@
 # Java
 
-Major part of content from 08631 Java application Programming
+Major part of contents are from 08671 Java application Programming
