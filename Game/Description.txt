@@ -15,10 +15,7 @@ pls install java to run the application
 # use more vivid feature patterns representing hiting operation
 # consider other randomize algorithms
 
-Any hidden bug issue pls contact
-qiyangh@andrew.cmu.edu
+bug issue pls contact
+qiyangh @ andrew DOT cmu DOT edu
 
-By the way
-My best record is 17
-how is that compared with yours?
-:)
+
